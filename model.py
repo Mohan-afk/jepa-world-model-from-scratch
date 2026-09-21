@@ -84,7 +84,7 @@ def collect_random_transitions(num_transitions: int, room_size: int = 8, seed: i
         next_observations[i] = next_observation
         next_states[i] = next_state
 
-        state = next_step
+        state = next_state
         obs = next_observation
 
     return {
